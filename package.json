@@ -1,0 +1,41 @@
+{
+  "name": "prediction.io",
+  "description": "Prediction.IO nodejs API",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mage/prediction.io",
+  "author": {
+    "name": "yongjae choi",
+    "email": "mage@weaveus.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lnyarl/node-predictionio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lnyarl/node-predictionio/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lnyarl/node-prediction/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/prediction.io",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "request": "~2.27.0",
+    "futures": "~2.3.1"
+  }
+}
