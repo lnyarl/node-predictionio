@@ -31,11 +31,13 @@
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0"
   },
   "keywords": [],
   "dependencies": {
     "request": "~2.27.0",
-    "futures": "~2.3.1"
+    "futures": "~2.3.1",
+    "lodash": "~2.2.1"
   }
 }

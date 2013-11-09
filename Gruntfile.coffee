@@ -1,9 +1,14 @@
 module.exports = (grunt)->
 
   grunt.initConfig
-    nodeunit:
-      files: ['test/**/*_test.js']
+    coffee:
+      tasks:
+        expand: true
+        cwd: 'src/'
+        src: ['**/*.coffee']
+        dest: 'out/'
+        ext: '.js'
 
-  grunt.registerTask('default', ['coffee', 'nodeunit']);
+  grunt.loadNpmTasks 'grunt-contrib-coffee'
 
-};
+  grunt.registerTask 'default', ['coffee']
